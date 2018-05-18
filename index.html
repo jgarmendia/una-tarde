@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/typing.css" rel="stylesheet">
+  <title>Una Tarde</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <!-- Juego -->
+        <p>
+          <h1 id="titulo">Una Tarde</h1>
+        </p>
+        <p id="op_ini">
+          Jugar </br>
+          Créditos </br>
+        </p>
+        <p class="text-justify" id="dia0"> </p>
+        <p class="text-justify" id="dialogo"> </p>
+        <p class="text-justify" id="casos"></p>
+
+        <p>
+          <input id="respuesta" type="text" value="" onkeypress="game(event)">
+        </p>
+        <p id="errorLog"></p>
+        <!-- /Juego -->
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/txtgame.js"></script>
+  <!-- Esta obra está sujeta a la licencia Reconocimiento 4.0 Internacional de Creative Commons. 
+http://creativecommons.org/licenses/by/4.0/.
+Paltoko - 2016  -->
+</body>
+
+</html>
